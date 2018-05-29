@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5725743520BD26190065D667 /* NewFeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725743420BD26190065D667 /* NewFeedsViewController.swift */; };
 		579F13A120BBF00700FC9F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F13A020BBF00700FC9F13 /* AppDelegate.swift */; };
-		579F13A320BBF00700FC9F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F13A220BBF00700FC9F13 /* ViewController.swift */; };
 		579F13A620BBF00700FC9F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579F13A420BBF00700FC9F13 /* Main.storyboard */; };
 		579F13A820BBF00F00FC9F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579F13A720BBF00F00FC9F13 /* Assets.xcassets */; };
 		579F13AB20BBF00F00FC9F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579F13A920BBF00F00FC9F13 /* LaunchScreen.storyboard */; };
-		579F13B620BBF00F00FC9F13 /* FacebookNewFeedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F13B520BBF00F00FC9F13 /* FacebookNewFeedsTests.swift */; };
-		579F13C120BBF00F00FC9F13 /* FacebookNewFeedsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F13C020BBF00F00FC9F13 /* FacebookNewFeedsUITests.swift */; };
+		579F13CF20BBF66600FC9F13 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F13CE20BBF66600FC9F13 /* SignInViewController.swift */; };
+		579F13D120BC05C700FC9F13 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F13D020BC05C600FC9F13 /* RegisterViewController.swift */; };
+		E6AE7B0205A8020F8E1E9CCF /* Pods_FacebookNewFeeds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0567382A97521C0D086B9047 /* Pods_FacebookNewFeeds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0567382A97521C0D086B9047 /* Pods_FacebookNewFeeds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookNewFeeds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CE680084F53EFCAC7C34B7 /* Pods_FacebookNewFeedsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookNewFeedsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3072659C441CB8A79A5F9DC3 /* Pods-FacebookNewFeeds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookNewFeeds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookNewFeeds/Pods-FacebookNewFeeds.debug.xcconfig"; sourceTree = "<group>"; };
+		5725743420BD26190065D667 /* NewFeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedsViewController.swift; sourceTree = "<group>"; };
 		579F139D20BBF00700FC9F13 /* FacebookNewFeeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookNewFeeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579F13A020BBF00700FC9F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		579F13A220BBF00700FC9F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		579F13A520BBF00700FC9F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		579F13A720BBF00F00FC9F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579F13AA20BBF00F00FC9F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		579F13AC20BBF00F00FC9F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		579F13B120BBF00F00FC9F13 /* FacebookNewFeedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookNewFeedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		579F13B520BBF00F00FC9F13 /* FacebookNewFeedsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookNewFeedsTests.swift; sourceTree = "<group>"; };
-		579F13B720BBF00F00FC9F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		579F13BC20BBF00F00FC9F13 /* FacebookNewFeedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookNewFeedsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		579F13C020BBF00F00FC9F13 /* FacebookNewFeedsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookNewFeedsUITests.swift; sourceTree = "<group>"; };
-		579F13C220BBF00F00FC9F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579F13CE20BBF66600FC9F13 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		579F13D020BC05C600FC9F13 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		63766150D209A8B7C7BF6F5E /* Pods_FacebookNewFeedsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookNewFeedsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FA8B05DE973186D7A7878A /* Pods-FacebookNewFeeds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookNewFeeds.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookNewFeeds/Pods-FacebookNewFeeds.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6AE7B0205A8020F8E1E9CCF /* Pods_FacebookNewFeeds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C2468AA760E47C55281F49C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3072659C441CB8A79A5F9DC3 /* Pods-FacebookNewFeeds.debug.xcconfig */,
+				B7FA8B05DE973186D7A7878A /* Pods-FacebookNewFeeds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		579F139420BBF00700FC9F13 = {
 			isa = PBXGroup;
 			children = (
 				579F139F20BBF00700FC9F13 /* FacebookNewFeeds */,
-				579F13B420BBF00F00FC9F13 /* FacebookNewFeedsTests */,
-				579F13BF20BBF00F00FC9F13 /* FacebookNewFeedsUITests */,
 				579F139E20BBF00700FC9F13 /* Products */,
+				4C2468AA760E47C55281F49C /* Pods */,
+				BEE7766E2950CC36EC78E6A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,31 +112,25 @@
 			isa = PBXGroup;
 			children = (
 				579F13A020BBF00700FC9F13 /* AppDelegate.swift */,
-				579F13A220BBF00700FC9F13 /* ViewController.swift */,
 				579F13A420BBF00700FC9F13 /* Main.storyboard */,
 				579F13A720BBF00F00FC9F13 /* Assets.xcassets */,
 				579F13A920BBF00F00FC9F13 /* LaunchScreen.storyboard */,
 				579F13AC20BBF00F00FC9F13 /* Info.plist */,
+				579F13CE20BBF66600FC9F13 /* SignInViewController.swift */,
+				579F13D020BC05C600FC9F13 /* RegisterViewController.swift */,
+				5725743420BD26190065D667 /* NewFeedsViewController.swift */,
 			);
 			path = FacebookNewFeeds;
 			sourceTree = "<group>";
 		};
-		579F13B420BBF00F00FC9F13 /* FacebookNewFeedsTests */ = {
+		BEE7766E2950CC36EC78E6A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				579F13B520BBF00F00FC9F13 /* FacebookNewFeedsTests.swift */,
-				579F13B720BBF00F00FC9F13 /* Info.plist */,
+				0567382A97521C0D086B9047 /* Pods_FacebookNewFeeds.framework */,
+				63766150D209A8B7C7BF6F5E /* Pods_FacebookNewFeedsTests.framework */,
+				16CE680084F53EFCAC7C34B7 /* Pods_FacebookNewFeedsUITests.framework */,
 			);
-			path = FacebookNewFeedsTests;
-			sourceTree = "<group>";
-		};
-		579F13BF20BBF00F00FC9F13 /* FacebookNewFeedsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				579F13C020BBF00F00FC9F13 /* FacebookNewFeedsUITests.swift */,
-				579F13C220BBF00F00FC9F13 /* Info.plist */,
-			);
-			path = FacebookNewFeedsUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +140,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 579F13C520BBF00F00FC9F13 /* Build configuration list for PBXNativeTarget "FacebookNewFeeds" */;
 			buildPhases = (
+				CE6C6303293BB5C666B2EE34 /* [CP] Check Pods Manifest.lock */,
 				579F139920BBF00700FC9F13 /* Sources */,
 				579F139A20BBF00700FC9F13 /* Frameworks */,
 				579F139B20BBF00700FC9F13 /* Resources */,
@@ -264,7 +273,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelseecho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		CE6C6303293BB5C666B2EE34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FacebookNewFeeds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -273,8 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579F13A320BBF00700FC9F13 /* ViewController.swift in Sources */,
+				579F13D120BC05C700FC9F13 /* RegisterViewController.swift in Sources */,
 				579F13A120BBF00700FC9F13 /* AppDelegate.swift in Sources */,
+				579F13CF20BBF66600FC9F13 /* SignInViewController.swift in Sources */,
+				5725743520BD26190065D667 /* NewFeedsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579F13B620BBF00F00FC9F13 /* FacebookNewFeedsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579F13C120BBF00F00FC9F13 /* FacebookNewFeedsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +472,7 @@
 		};
 		579F13C620BBF00F00FC9F13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3072659C441CB8A79A5F9DC3 /* Pods-FacebookNewFeeds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +490,7 @@
 		};
 		579F13C720BBF00F00FC9F13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FA8B05DE973186D7A7878A /* Pods-FacebookNewFeeds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -22,7 +22,7 @@ class RegisterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
     @IBAction func registerAction(_ sender: Any) {
         if accountNameTextField.text != "" && passwordTextField.text != "" && repasswordTextField.text != "" {
             performSegue(withIdentifier: Constants.goToMainSegue, sender: nil)
